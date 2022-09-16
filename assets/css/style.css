@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+    font-weight: 300;
+    color: #17202a;
+}
+
+/* logo and nav*/
+
+#logo {
+    font-family: Inconsolata, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+    font-size: 330%;
+    float: left;
+    margin-left: 30px;
+    line-height: 70px;
+}
+
+#nav {
+    float: right;
+    font-size: 100%;
+    line-height: 70px;
+}
+
+#nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image and text */
+
+#hero {
+    height: 600px;
+    width: 100%;
+
+    position: relative;
+}
+
+#cover-text {
+    color: #fff;
+    font-size: 130%;
+    font-family: Inconsolata, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(22, 173, 17, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}

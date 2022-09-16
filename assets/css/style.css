@@ -159,12 +159,15 @@ hr {
 }
 
 #calendar-event {
-    width: 25%;
+    background-color: #17202a;
+    width: 50%;
     height: 300px;
     text-align: center;
     padding: 60px 0 0 10px;
     float: left;
+    border: 10px solid #eaeded;
     box-sizing: border-box;
+    color: #eaeded;
 }
 
 #calendar-event h2 {
@@ -173,24 +176,4 @@ hr {
 
 #calendar-event h3 {
     padding-top: 10px;
-}
-
-.green {
-    background-image: url('../images/pexels-edgar-colomba.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: black;
-}
-
-.yellow {
-    background-color: #f0ec18;
-}
-
-.red {
-    background-color: red;
-}
-
-.blue {
-    background-color: blue;
 }

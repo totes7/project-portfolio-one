@@ -150,3 +150,47 @@ hr {
 #leftside-right h3 {
     text-align: right;
 }
+
+/* calendar section */
+
+#calendar {    
+    display: inline;
+    font-size: 200%;
+}
+
+#calendar-event {
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    padding: 60px 0 0 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#calendar-event h2 {
+    font-family: Inconsolata, sans-serif;
+}
+
+#calendar-event h3 {
+    padding-top: 10px;
+}
+
+.green {
+    background-image: url('../images/pexels-edgar-colomba.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.yellow {
+    background-color: #f0ec18;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}

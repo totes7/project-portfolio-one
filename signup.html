@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amateur Basketball Tournament in Brighton, UK - sign up page">
+    <meta name="keywords" content="basketball, tournament, ball, court, UK, Brighton, park, seafront">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sign Up!</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">BYT</h1>
+        </a>
+        <nav>
+            <ul id="nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Tournament</a>
+                </li>
+                <li>
+                    <a href="#">Calendar</a>
+                </li>
+                <li>
+                    <a href="signup.html" class="active">Sign up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section">
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Complete registration form <i class="fa-solid fa-check-to-slot"></i></h2>
+            <hr>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required />
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" type="text"  name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required/>
+            <label for="birthday">Date of Birth</label>
+            <input id="birthday" class="birthday" type="date" name="birthday">
+            <h3>Position</h3>
+            <label for="pg">Point Guard</label>
+            <input type="radio" name="position" id="pg">
+            <label for="sg">Shooting Guard</label>
+            <input type="radio" name="position" id="sg">
+            <label for="sf">Small Forwd</label>
+            <input type="radio" name="position" id="sf">
+            <label for="pf">Power Forwd</label>
+            <input type="radio" name="position" id="pf">
+            <label for="c">Center</label>
+            <input type="radio" name="position" id="c">
+            <input class="join-button"  type="submit" value="Register"/>
+            
+        </form>
+    </section>
+
+    <footer>
+        <div id="contacts">
+            <h2>Contacts</h2>
+            <hr>
+            <h3>Preston Park Road, Brighton, UK, BN3 1KQ</h3>
+            <h3>01273 369584</h3>
+            <h3>brightonyouthtournament@gmail.com</h3>
+        </div>
+        <div id="social">
+            <ul>
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- font awsome script -->
+    <script src="https://kit.fontawesome.com/6ca55bebc5.js" crossorigin="anonymous"></script>
+</body>
+</html>

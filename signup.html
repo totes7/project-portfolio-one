@@ -44,18 +44,18 @@
             <label for="email">Email Address</label>
             <input id="email" class="text-input" type="email" name="email_address" required/>
             <label for="birthday">Date of Birth</label>
-            <input id="birthday" class="birthday" type="date" name="birthday">
+            <input id="birthday" class="birthday" type="date" name="birthday" required>
             <h3>Position</h3>
-            <label for="pg">Point Guard</label>
-            <input type="radio" name="position" id="pg">
-            <label for="sg">Shooting Guard</label>
-            <input type="radio" name="position" id="sg">
-            <label for="sf">Small Forwd</label>
-            <input type="radio" name="position" id="sf">
-            <label for="pf">Power Forwd</label>
-            <input type="radio" name="position" id="pf">
+            <label for="pg">Point G</label>
+            <input type="radio" name="position" id="pg" value="point_guard" required>
+            <label for="sg">Shooting G</label>
+            <input type="radio" name="position" id="sg" value="shooting_guard">
+            <label for="sf">Small F</label>
+            <input type="radio" name="position" id="sf" value="small_forward">
+            <label for="pf">Power F</label>
+            <input type="radio" name="position" id="pf" value="power_forward">
             <label for="c">Center</label>
-            <input type="radio" name="position" id="c">
+            <input type="radio" name="position" id="c" value="center">
             <input class="join-button"  type="submit" value="Register"/>
             
         </form>

@@ -18,13 +18,6 @@ body {
 
 /* logo and nav*/
 
-header {
-    width: 100%;
-    height: 75px;
-    background-color: #eaeded;
-    position: fixed;
-    z-index: 1;
-}
 
 
 #logo {
@@ -65,11 +58,18 @@ header {
 
 /* hero image and text */
 
-#hero {
+#hero-outer {
     height: 600px;
     width: 100%;
+    overflow: hidden;
 
     position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-sergio-souza.jpg') no-repeat center center;
 }
 
 #cover-text {
@@ -85,11 +85,10 @@ header {
     padding-left: 10px;
 
     background-color: #f0ec18;
-
-    bottom: 30px;
-    left: 0px;
-
+    
     position: absolute;
+    bottom: 60px;
+    left: 0px;
 }
 
 /* tournament section */
@@ -138,7 +137,7 @@ hr {
     margin: 20px 20px 20px 0;
 }
 
-#text-side-left h2 {
+#text-side-left h2 { 
     font-family: Inconsolata, sans-serif;
     font-size: 220%;
     text-align: left;
@@ -174,7 +173,6 @@ hr {
 
 #calendar {    
     display: inline;
-    background-color: #f0ec18;
 }
 
 #calendar-event {
@@ -250,6 +248,27 @@ hr {
     background-color: #17202a;
     padding-right: 1%;
     padding-top: 1%;
+}
+
+#social h2 {
+    color: #f0ec18;
+    float: left;
+    padding: 50px 0 0 20px;
+}
+
+#social h2 > i {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: #f0ec18;
+}
+
+#social a {
+    color: #f0ec18;
+}
+
+#social a:hover {
+    color: #eaeded;
 }
 
 #social li {
@@ -340,11 +359,85 @@ hr {
 
 /* Media queries  */
 
-/* For medium to small screens size from 850px wide and down */
-@media screen and (max-width: 850px) {
-    #image-right, #text-side {
-        width: 100%;
+/* For medium to small screens size from 900px wide and down */
+@media screen and (max-width: 900px) {
+    hr {
+        display: none;
+    }
+
+    #text-side {
+        width: 50%;
         height: 300px;
         float: left;
+    }
+
+    #image-right {
+        width: 50%;
+        height: 300px;
+        float: right;
+    }
+    
+    #text-side-left {
+        float: left;
+        line-height: 15px;
+        margin: 10px 0 10px 10px;
+    }
+    
+    #text-side-right {
+        float: right;
+        line-height: 15px;
+        margin: 10px 10px 10px 0;
+    }
+
+    #text-side-left h2, #text-side-right h2 {
+        font-size: 150%;
+    }
+
+    #text-side-left h3, #text-side-right h3 {
+        font-size: 75%;
+    }
+
+    #image-left {
+        width: 50%;
+        height: 300px;
+        float: left;
+    }
+
+    #calendar-event {
+        width: 50%;
+        height: 300px;
+        float: right;
+    }
+    
+    #calendar-event-left {
+        float: left;
+        line-height: 15px;
+        margin: 10px 0 10px 10px;
+    }
+    
+    #calendar-event-right {
+        float: right;
+        line-height: 15px;
+        margin: 10px 0 10px 10px;
+    }
+    
+    #calendar-event-left h2, #calendar-event-right h2 {
+        font-size: 150%;
+    }
+
+    #calendar-event-left h3, #calendar-event-right h3 {
+        font-size: 75%;
+    }
+
+    #social h2 {
+        font-size: 80%;
+    }
+    
+    #social h2 > i {
+        font-size: 70%;
+    }
+
+    #social i {
+        font-size: 150%;
     }
 } 

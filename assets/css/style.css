@@ -121,7 +121,7 @@ hr {
 
 }
 
-#text-side-left {
+.text-side-left {
     width: 45%;
     height: 50%;
     float: left;
@@ -129,7 +129,7 @@ hr {
     margin: 20px 0 20px 20px;
 }
 
-#text-side-right {
+.text-side-right {
     width: 45%;
     height: 50%;
     float: right;
@@ -137,23 +137,23 @@ hr {
     margin: 20px 20px 20px 0;
 }
 
-#text-side-left h2 { 
+.text-side-left h2 { 
     font-family: Inconsolata, sans-serif;
     font-size: 220%;
     text-align: left;
 }
 
-#text-side-right h2 {
+.text-side-right h2 {
     font-family: Inconsolata, sans-serif;
     font-size: 220%;
     text-align: right;
 }
 
-#text-side-left h3 {
+.text-side-left h3 {
     text-align: left;
 }
 
-#text-side-right h3 {
+.text-side-right h3 {
     text-align: right;
 }
 
@@ -181,7 +181,7 @@ hr {
     float: right;
 }
 
-#calendar-event-left {
+.calendar-event-left {
     width: 45%;
     height: 50%;
     float: left;
@@ -189,7 +189,7 @@ hr {
     margin: 20px 0 20px 20px;
 }
 
-#calendar-event-right {
+.calendar-event-right {
     width: 45%;
     height: 50%;
     float: right;
@@ -197,24 +197,24 @@ hr {
     margin: 20px 0 20px 20px;
 }
 
-#calendar-event-left h2 {
+.calendar-event-left h2 {
     font-family: Inconsolata, sans-serif;
     font-size: 220%;
     text-align: center;
 }
 
-#calendar-event-right h2 {
+.calendar-event-right h2 {
     font-family: Inconsolata, sans-serif;
     font-size: 220%;
     text-align: center;
 }
 
-#calendar-event-left h3 {
+.calendar-event-left h3 {
     padding-top: 10px;
     text-align: center;
 }
 
-#calendar-event-right h3 {
+.calendar-event-right h3 {
     padding-top: 10px;
     text-align: center;
 }
@@ -377,23 +377,23 @@ hr {
         float: right;
     }
     
-    #text-side-left {  
+    .text-side-left {  
         float: left;
         line-height: 15px;
         margin: 10px 0 10px 10px;
     }
     
-    #text-side-right {
+    .text-side-right {
         float: right;
         line-height: 15px;
         margin: 10px 10px 10px 0;
     }
 
-    #text-side-left h2, #text-side-right h2 {
+    .text-side-left h2, .text-side-right h2 {
         font-size: 150%;
     }
 
-    #text-side-left h3, #text-side-right h3 {
+    .text-side-left h3, .text-side-right h3 {
         font-size: 75%;
     }
 
@@ -409,23 +409,23 @@ hr {
         float: right;
     }
     
-    #calendar-event-left {
+    .calendar-event-left {
         float: left;
         line-height: 15px;
         margin: 10px 0 10px 10px;
     }
     
-    #calendar-event-right {
+    .calendar-event-right {
         float: right;
         line-height: 15px;
         margin: 10px 0 10px 10px;
     }
     
-    #calendar-event-left h2, #calendar-event-right h2 {
+    .calendar-event-left h2, .calendar-event-right h2 {
         font-size: 150%;
     }
 
-    #calendar-event-left h3, #calendar-event-right h3 {
+    .calendar-event-left h3, .calendar-event-right h3 {
         font-size: 75%;
     }
 
@@ -463,7 +463,7 @@ hr {
         width: 65%;
     }
 
-    #text-side-left, #text-side-right {
+    .text-side-left, .text-side-right {
         width: 100%;
         height: 25%;
         float: left;
@@ -480,7 +480,7 @@ hr {
         width: 35%;
     }
 
-    #calendar-event-left, #calendar-event-right {
+    .calendar-event-left, .calendar-event-right {
         width: 100%;
         height: 25%;
         line-height: 10px;

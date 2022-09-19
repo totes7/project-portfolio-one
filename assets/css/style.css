@@ -18,6 +18,13 @@ body {
 
 /* logo and nav*/
 
+header {
+    width: 100%;
+    height: 75px;
+    background-color: #eaeded;
+    position: fixed;
+    z-index: 1;
+}
 
 
 #logo {

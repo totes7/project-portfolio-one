@@ -444,6 +444,12 @@ hr {
 
 /* for small screens size 650px wdie and down */
 @media screen and (max-width: 650px) {
+    #nav {
+        float: left;
+        padding-left: 10px;
+        font-size: 80%;
+    }
+
     #cover-text {
         width: 300px;
         height: 150px;

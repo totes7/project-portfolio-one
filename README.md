@@ -1,108 +1,66 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Basketball Youth Tournament
 
-Welcome totes7,
+The Basketball Youth Tournament website is a landing page for kids between the age of 14 and 16 years old looking to play some amateur basketball. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The website is designed to present the user with all the information about this tournament, including description and event calendar, as well as a sign up page where people can register for the tournament Selection Camp.
+The page is targeted for kids who love basketball and wants to spend a summer competing in an awsome tournament.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsive Mockup](/assets/images/screenshot1.png)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+- **Navigation Bar**
 
-A blue button should appear to click: _Make Public_,
+    - The Nav Bar is consistent in both the index and sign up pages to allow for easy navigation.
+    - It includes the tournament logo on the right and link to the home page, the tournament section, the calendar section and the sign up page on the left.
+    - It allows the user to easily navigate through the website without having to use the browsere 'back' button.
 
-Another blue button should appear to click: _Open Browser_.
+![Nav Bar](/assets/images/screenshot3.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+- **Landing Page Image**
 
-Another blue button should appear to click: _Open Browser_.
+    - The landing page consiste of one big hero image and a cover text with the name and the location of the tournament.
+    - It present the user with a pretty obvious clue about what this website is about, with the image being of three colorful basketball courts.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Langind Page Image](/assets/images/screenshot7.png)
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- **Tournament Info Section**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    - The tournament info section contains all the information regarding this tournament.
+    - It tells a little bit about the tournament in general and its goals.
+    - There's also info about the selection process and the style of the tournament, with a full explanation about how it works and how the winner will be crowned.
 
-------
+![Tournament Info Section](/assets/images/screenshot5.png)
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- **Event Calendar Section**
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    - This section provides the user with the full event calendar.
+    - Every part of the tournament is displayed with the date, location and time when applicable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Event Calendar Section](/assets/images/screenshot6.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- **The Footer**
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    - The footer section includes contact information and direct links to social media.
+    - The footer also contains a direct link to the sign up page.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Footer](/assets/images/screenshot4.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- **The Sign Up Page**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    - The sign up page allows the users to register for the tournament selection camp by providing their first and last name, email address, date of birth and preferred position.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Sign Up Page](/assets/images/screenshot2.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- I tested this website without finding issues on three separate browsers: Chrome, Safari and Firefox.
+- The website is responsive to different screen sizes, I tested this using the chrome developer tools.
+- 

@@ -63,4 +63,5 @@ The page is targeted for kids who love basketball and wants to spend a summer co
 
 - I tested this website without finding issues on three separate browsers: Chrome, Safari and Firefox.
 - The website is responsive to different screen sizes, I tested this using the chrome developer tools.
-- 
+- I confrimed that all the text content on the page is readable and understandable at all screen sizes.
+- I confirmed that the sign up form works, requiring all the fields to be input in order to submit.

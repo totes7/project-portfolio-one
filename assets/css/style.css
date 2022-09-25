@@ -258,6 +258,10 @@ hr {
     padding-top: 1%;
 }
 
+#signup {
+    display: none;
+}
+
 #social h2 {
     color: #f0ec18;
     float: left;
@@ -297,7 +301,6 @@ hr {
 
 
 .form-section {
-    clear: left;
     background: url('../images/pexels-rodnae-productions.jpg');
     background-size: cover;
     background-position: center;
@@ -305,12 +308,15 @@ hr {
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
     color: #17202a;
-    max-width: 450px;
+    max-width: 50%;
     background-color: rgba(240, 236, 24, .8);
-    position: absolute;
-    left: 33%;
+    padding: 1%;
+
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     
     font-size: 100%;
     font-weight: 900;
@@ -495,9 +501,15 @@ hr {
         width: 100%;
     }
 
-    /* #social li {
+    #signup {
         display: block;
-        padding: 3px;
-    } */
+        float: left;
+        padding: 10% 0 0 10%;
+    }
+
+    #social h2 {
+        display: none;
+    }
+
 
 }

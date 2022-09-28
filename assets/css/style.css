@@ -66,6 +66,31 @@ header {
     border-bottom: 1px solid #17202a;
 }
 
+nav .nav-toggler {
+    display: none;
+    float: right;
+    height: min-content;
+    margin: 18px 10px 0 0;
+    cursor: pointer;
+}
+
+nav .nav-toggler .bar {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: #17202a;
+    border-radius: 10%;
+    transition: .4s;
+}
+
+input {
+    display: none;
+}
+
+input:checked ~ nav #nav {
+    transform: translateY(0);
+}
+
 /* hero image and text */
 
 #hero-outer {
@@ -202,6 +227,11 @@ hr {
     box-sizing: border-box;
 }
 
+#video > iframe {
+    width: 75%;
+    height: 75%;
+}
+
 #video h2 {
     color: #eaeded;
     font-size: 220%;
@@ -214,6 +244,12 @@ hr {
     height: 600px;
     width: 100%;
     display: inline-block;
+}
+
+#map > iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 /* footer */
@@ -423,6 +459,28 @@ hr {
         font-size: 80%;
     }
 
+    #nav {
+        width: 100%;
+        background: #f0ec18;
+        line-height: 50px;
+        position: absolute;
+        left: 0;
+        top: 75px;
+        transform: translateY(-150%);
+        z-index: -1;
+        transition: .6s;
+    }
+    
+    #nav li {
+        display: flex;
+        padding-left: 1%;
+        font-size: 200%;
+    }
+
+    nav .nav-toggler {
+        display: grid !important;
+    }
+
     #cover-text {
         width: 50%;
     }
@@ -438,6 +496,10 @@ hr {
     #video {
         height: 300px;
         border: 2px solid #f0ec18;
+    }
+
+    #map {
+        height: 300px;
     }
 
     #contacts {

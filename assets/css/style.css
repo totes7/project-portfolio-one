@@ -191,6 +191,23 @@ hr {
     color: #eaeded;
 }
 
+/* video section */
+
+#video {
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    background-color: #17202a;
+    border: 75px solid #f0ec18;
+    box-sizing: border-box;
+}
+
+#video h2 {
+    color: #eaeded;
+    font-size: 220%;
+    padding: 3%;
+}
+
 /* map section */
 
 #map {
@@ -278,19 +295,17 @@ hr {
     background-size: cover;
     background-position: center;
     height: 750px;
+    display: flex;
+    justify-content: center;
 }
 
 .signup-form {
     color: #17202a;
     max-width: 50%;
+    height: fit-content;
     background-color: rgba(240, 236, 24, .8);
-    padding: 1%;
-
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    
+    margin-top: 15%;
+    padding: 1%;    
     font-size: 100%;
     font-weight: 900;
 }
@@ -427,6 +442,11 @@ hr {
 
     #social h2 {
         display: none;
+    }
+
+    .signup-form {
+        max-width: 90%;
+        margin-top: 30%;
     }
 
 

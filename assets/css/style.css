@@ -83,11 +83,11 @@ nav .nav-toggler .bar {
     transition: .4s;
 }
 
-input {
+.toggle {
     display: none;
 }
 
-input:checked ~ nav #nav {
+.toggle:checked ~ nav #nav {
     transform: translateY(0);
 }
 

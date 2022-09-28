@@ -395,6 +395,15 @@ hr {
         padding-top: 1%;
     }
 
+    #video {
+        height: 450px;
+        border: 15px solid #f0ec18;
+    }
+
+    #video h2 {
+        font-size: 100%;
+    }
+
     #social h2 {
         font-size: 70%;
     }
@@ -424,6 +433,11 @@ hr {
 
     #calendar {
         background: url('../images/pexels-justiniano-adriano-2.jpg') no-repeat center center;
+    }
+
+    #video {
+        height: 300px;
+        border: 2px solid #f0ec18;
     }
 
     #contacts {

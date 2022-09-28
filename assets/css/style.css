@@ -10,7 +10,7 @@
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 200;
-    font-size: 70%;
+    font-size: 100%;
     color: #17202a;
     background-color: #eaeded;
 }
@@ -19,9 +19,8 @@ header {
     width: 100%;
     height: 75px;
     position: fixed;
-    background-color: #eaeded;
-    z-index: 1;
-    
+    background-color: #f0ec18;
+    z-index: 1;   
 }
 
 
@@ -44,7 +43,7 @@ header {
 
 #nav {
     float: right;
-    font-size: 130%;
+    font-size: 100%;
     line-height: 70px;
 }
 
@@ -85,21 +84,22 @@ header {
 }
 
 #cover-text {
-    font-size: 175%;
+    color: #eaeded;
+    font-size: 150%;
     font-family: Inconsolata, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 500px;
-    height: 150px;
+    width: 35%;
+    height: 27%;
 
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: #f0ec18;
+    background-color: #17202a;
     
     position: absolute;
-    bottom: 60px;
+    bottom: 10%;
     left: 0px;
 }
 
@@ -112,129 +112,89 @@ hr {
 }
 
 #tournament {
-    display: inline;
-}
-
-#text-side {
-    width: 50%;
-    height: 450px;
-    float: left;
-}
-
-#image-right {
-    width: 50%;
-    height: 450px;
-    float: right;
-}
-
-#image-right img {
+    display: inline-block;
     width: 100%;
-    height: 100%;
-
+    height: 600px;
 }
 
-.text-side-left {
-    width: 45%;
+
+.text-top {
+    width: 50%;
     height: 50%;
     float: left;
     line-height: 25px;
-    margin: 20px 0 20px 20px;
+    padding: 5%;
+    box-sizing: border-box;
 }
 
-.text-side-right {
-    width: 45%;
+.text-bottom {
+    width: 50%;
     height: 50%;
     float: right;
     line-height: 25px;
-    margin: 20px 20px 20px 0;
+    padding: 5%;
+    box-sizing: border-box;
+    
 }
 
-.text-side-left h2 { 
+.text-top h2 { 
     font-family: Inconsolata, sans-serif;
-    font-size: 220%;
+    font-size: 320%;
     text-align: left;
 }
 
-.text-side-right h2 {
+.text-bottom h2 {
     font-family: Inconsolata, sans-serif;
-    font-size: 220%;
+    font-size: 320%;
     text-align: right;
 }
 
-.text-side-left h3 {
+.text-top h3 {
     text-align: left;
 }
 
-.text-side-right h3 {
+.text-bottom h3 {
     text-align: right;
 }
+
 
 /* calendar section */
 
-#image-left {
-    width: 50%;
-    height: 450px;
-    float: left;
-}
-
-#image-left img {
-    width: 100%;
-    height: 100%;
-
-}
-
 #calendar {    
-    display: inline;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    background: url('../images/pexels-justiniano-adriano.jpg') no-repeat center center;
 }
 
-#calendar-event {
-    width: 50%;
-    height: 450px;
-    float: right;
-}
-
-.calendar-event-left {
-    width: 45%;
-    height: 50%;
+.calendar-event {
+    width: 25%;
+    height: 100%;
+    line-height: 25px;
+    padding-top: 17%;
+    border: 2px solid #eaeded;
+    box-sizing: border-box;
     float: left;
-    line-height: 25px;
-    margin: 20px 0 20px 20px;
+    background-color: rgba(23, 32, 42, 0.7);
 }
 
-.calendar-event-right {
-    width: 45%;
-    height: 50%;
-    float: right;
-    line-height: 25px;
-    margin: 20px 0 20px 20px;
-}
-
-.calendar-event-left h2 {
+.calendar-event h2 {
     font-family: Inconsolata, sans-serif;
     font-size: 220%;
     text-align: center;
+    color: #eaeded;
 }
 
-.calendar-event-right h2 {
-    font-family: Inconsolata, sans-serif;
-    font-size: 220%;
-    text-align: center;
-}
-
-.calendar-event-left h3 {
+.calendar-event h3 {
     padding-top: 10px;
     text-align: center;
-}
-
-.calendar-event-right h3 {
-    padding-top: 10px;
-    text-align: center;
+    color: #eaeded;
 }
 
 /* map section */
 
 #map {
-    height: 450px;
+    height: 600px;
     width: 100%;
     display: inline-block;
 }
@@ -278,6 +238,7 @@ hr {
     color: #f0ec18;
     float: left;
     padding: 50px 0 0 20px;
+    font-size: 100%;
 }
 
 #social h2 > i {
@@ -302,7 +263,7 @@ hr {
 }
 
 #social i {
-    font-size: 220%;
+    font-size: 150%;
     margin: 5%;
     padding: 5%;
     color: #f0ec18;
@@ -392,77 +353,35 @@ hr {
     }
 
     #cover-text {
-        width: 300px;
-        height: 150px;
+        width: 40%;
+        height: 20%;
+        font-size: 100%;
     }
 
+    hr {
+        display: none;
+    }
 
-    #text-side {
+    .text-top {
         width: 100%;
-        height: 300px;
-        float: left;
+        height: 25%;
+        padding: 1%;
     }
 
-    #image-right {
+    .text-bottom {
         width: 100%;
-        height: auto;
-        float: right;
-    }
-    
-    .text-side-left {  
-        float: left;
-        line-height: 15px;
-        margin: 10px 0 10px 10px;
-    }
-    
-    .text-side-right {
-        float: right;
-        line-height: 15px;
-        margin: 10px 10px 10px 0;
-    }
+        height: 25%;
+        padding: 1%;
+    }    
 
-    .text-side-left h2, .text-side-right h2 {
-        font-size: 150%;
-    }
-
-    .text-side-left h3, .text-side-right h3 {
-        font-size: 75%;
-    }
-
-    #image-left {
+    .calendar-event {
         width: 100%;
-        height: auto;
-        float: left;
-    }
-
-    #calendar-event {
-        width: 100%;
-        height: 300px;
-        float: right;
-    }
-    
-    .calendar-event-left {
-        float: left;
-        line-height: 15px;
-        margin: 10px 0 10px 10px;
-    }
-    
-    .calendar-event-right {
-        float: right;
-        line-height: 15px;
-        margin: 10px 0 10px 10px;
-    }
-    
-    .calendar-event-left h2, .calendar-event-right h2 {
-        font-size: 150%;
-    }
-
-    .calendar-event-left h3, .calendar-event-right h3 {
-        font-size: 75%;
+        height: 25%;
+        padding-top: 1%;
     }
 
     #social h2 {
-        font-size: 80%;
+        font-size: 70%;
     }
     
     #social h2 > i {
@@ -470,12 +389,24 @@ hr {
     }
 
     #social i {
-        font-size: 150%;
+        font-size: 100%;
     }
 } 
 
 /* for small screens size 650px wdie and down */
 @media screen and (max-width: 650px) {
+    body {
+        font-size: 80%;
+    }
+
+    #cover-text {
+        width: 50%;
+    }
+
+    .text-top h2, .text-bottom h2 {
+        font-size: 170%;
+    }
+
     #contacts {
         width: 100%;
     }

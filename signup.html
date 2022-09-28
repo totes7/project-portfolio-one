@@ -15,13 +15,23 @@
     <!-- Logo and Nav Bar -->
 
     <header>
-        <a href="index.html">
-            <h1 id="logo">BYT</h1>
-        </a>
+
+        <input type="checkbox" id="toggle">
+
         <nav>
+            <a href="index.html">
+                <h1 id="logo">BYT</h1>
+            </a>
+
+            <label class="nav-toggler" for="toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+        
             <ul id="nav">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
                 <li>
                     <a href="index.html#anchor-one">Tournament</a>
@@ -36,7 +46,7 @@
                     <a href="index.html#anchor-four">Map</a>
                 </li>
                 <li>
-                    <a href="signup.html" class="active">Sign up</a>
+                    <a href="signup.html">Sign up</a>
                 </li>
             </ul>
         </nav>

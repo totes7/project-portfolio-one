@@ -50,7 +50,7 @@ header {
 #nav li {
     display: inline;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 #nav a {
@@ -70,7 +70,7 @@ nav .nav-toggler {
     display: none;
     float: right;
     height: min-content;
-    margin: 18px 10px 0 0;
+    margin: 18px 20px 0 0;
     cursor: pointer;
 }
 
@@ -470,15 +470,15 @@ hr {
         position: absolute;
         left: 0;
         top: 75px;
-        transform: translateY(-150%);
+        transform: translateY(-220%);
         z-index: -1;
         transition: .6s;
+        text-align: center;
     }
     
     #nav li {
-        display: flex;
         padding-left: 1%;
-        font-size: 200%;
+        font-size: 90%;
     }
 
     nav .nav-toggler {
@@ -487,6 +487,14 @@ hr {
 
     #cover-text {
         width: 50%;
+    }
+
+    #tournament {
+        height: 750px;
+    }
+
+    .text-top, .text-bottom {
+        line-height: 20px;
     }
 
     .text-top h2, .text-bottom h2 {

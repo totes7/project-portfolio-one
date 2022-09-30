@@ -5,7 +5,7 @@ The Basketball Youth Tournament website is a landing page for kids between the a
 The website is designed to present the user with all the information about this tournament, including description and event calendar, as well as a sign up page where people can register for the tournament Selection Camp.
 The page is targeted for kids who love basketball and wants to spend a summer competing in an awsome tournament.
 
-![Responsive Mockup](/assets/images/screenshot1.png)
+![Responsive Mockup](/assets/readme-docs/screenshot1.png)
 
 
 ## Features
@@ -17,7 +17,7 @@ The page is targeted for kids who love basketball and wants to spend a summer co
     - It allows the user to easily navigate through the website without having to use the browsere 'back' button.
     - The Nav Bar collapses into a hamburger style menu on mobile divices.
 
-![Nav Bar](/assets/images/screenshot3.png)
+![Nav Bar](/assets/readme-docs/screenshot3.png)
 
 
 - **Landing Page Image**
@@ -25,7 +25,7 @@ The page is targeted for kids who love basketball and wants to spend a summer co
     - The landing page consiste of one big hero image and a cover text with the name and the location of the tournament.
     - It present the user with a pretty obvious clue about what this website is about, with the image being of a colorful basketball court.
 
-![Langind Page Image](/assets/images/screenshot7.png)
+![Langind Page Image](/assets/readme-docs/screenshot7.png)
 
 
 - **Tournament Info Section**
@@ -34,7 +34,7 @@ The page is targeted for kids who love basketball and wants to spend a summer co
     - It tells a little bit about the tournament in general and its goals.
     - There's also info about the selection process and the style of the tournament, with a full explanation about how it works and how the winner will be crowned.
 
-![Tournament Info Section](/assets/images/screenshot5.png)
+![Tournament Info Section](/assets/readme-docs/screenshot5.png)
 
 
 - **Event Calendar Section**
@@ -42,7 +42,7 @@ The page is targeted for kids who love basketball and wants to spend a summer co
     - This section provides the user with the full event calendar.
     - Every part of the tournament is displayed with the date, location and time when applicable.
 
-![Event Calendar Section](/assets/images/screenshot6.png)
+![Event Calendar Section](/assets/readme-docs/screenshot6.png)
 
 
 - **Media Section**
@@ -50,7 +50,7 @@ The page is targeted for kids who love basketball and wants to spend a summer co
     - This section consist of a YouTube video of the first edition of the tournament.
     - The user can get a better understanding of what the tournament is all about and they can see one of our courts.
 
-![Media Section](/assets/images/screenshot2.png)
+![Media Section](/assets/readme-docs/screenshot2.png)
 
 
 - **Map Section**
@@ -58,7 +58,7 @@ The page is targeted for kids who love basketball and wants to spend a summer co
     - This section contains a Google Map of our main court.
     - Map is interactive so that the user can get easy directions.
 
-![Map Section](/assets/images/screenshot10.png)
+![Map Section](/assets/readme-docs/screenshot10.png)
 
 
 - **The Footer**
@@ -66,14 +66,14 @@ The page is targeted for kids who love basketball and wants to spend a summer co
     - The footer section includes contact information and direct links to social media.
     - The footer also contains a direct link to the sign up page.
 
-![Footer](/assets/images/screenshot4.png)
+![Footer](/assets/readme-docs/screenshot4.png)
 
 
 - **The Sign Up Page**
 
     - The sign up page allows the users to register for the tournament selection camp by providing their first and last name, email address, date of birth and preferred position.
 
-![Sign Up Page](/assets/images/screenshot9.png)
+![Sign Up Page](/assets/readme-docs/screenshot9.png)
 
 
 ## Testing
@@ -105,7 +105,7 @@ The page is targeted for kids who love basketball and wants to spend a summer co
 - **Accessibility**
     - I confirmed good accessibility of the page by running it through Lighthouse.
 
-![Lightohouse Score](/assets/images/screenshot8.png)
+![Lightohouse Score](/assets/readme-docs/screenshot8.png)
 
 
 ## Deployment

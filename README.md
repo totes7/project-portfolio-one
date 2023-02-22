@@ -75,6 +75,13 @@ The page is targeted for kids who love basketball and wants to spend a summer co
 
 ![Sign Up Page](/assets/readme-docs/screenshot9.png)
 
+- **The Thank You Page**
+
+    - The thanks you page is just a quick confirmation to the user that their registration was successfull.
+
+![Thank You Page](/assets/readme-docs/screenshot11.jpg)
+
+
 
 ## Testing
 

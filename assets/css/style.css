@@ -394,6 +394,27 @@ hr {
     color: #17202a;
 }
 
+/* thank you page */
+
+#cover-text-thanks {
+    color: #17202a;
+    font-size: 350%;
+    font-family: Inconsolata, sans-serif;
+    letter-spacing: 4px;
+
+    max-width: 40%;
+    height: fit-content;
+
+    margin-top: 10%;
+
+    padding: 5%;
+
+    background-color: rgba(240, 236, 24, .8);
+
+    position: absolute;
+    top: 20%;
+}
+
 
 /* Media queries  */
 
@@ -454,6 +475,10 @@ hr {
 
     .signup-form {
         margin-top: 18%;
+    }
+
+    #cover-text-thanks {
+        font-size: 250%;
     }
 } 
 
@@ -537,5 +562,8 @@ hr {
         margin-top: 30%;
     }
 
+    #cover-text-thanks {
+        font-size: 150%;
+    }
 
 }
